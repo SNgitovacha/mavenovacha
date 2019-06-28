@@ -1,5 +1,8 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebElement;
 
 public class mavenovacha {
     public static void main(String[] args) {
@@ -7,7 +10,8 @@ public class mavenovacha {
         System.setProperty("webdriver.chrome.driver", "./src/main/java/driver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
-
+        WebElement google = driver.findElement(By.className("gLFyf"));
+        google.sendKeys("testing");
         //Closes chrome browser
         //driver.quit();
     }
