@@ -14,6 +14,7 @@ public class mavenovacha {
         google.sendKeys("testing");
         google.sendKeys(Keys.RETURN);
         //Closes chrome browser
+        //Saveta
         //driver.quit();
     }
 }
