@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mavenovacha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mavenovacha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mavenovacha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mavenovacha.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,14 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nenad.resimic\Desktop\Posao\Automation\mavenovacha\src\main\resources" />
+      <recent name="C:\Users\nenad.resimic\Desktop\Posao\Automation\mavenovacha\src\main" />
+      <recent name="C:\Users\nenad.resimic\Desktop\Posao\Automation\mavenovacha\src\main\java" />
+      <recent name="C:\Users\nenad.resimic\Desktop\Posao\Automation\mavenovacha\src\main\logic" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
