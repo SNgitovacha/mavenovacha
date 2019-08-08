@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/logic/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mavenovacha.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/mavenovacha.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logic/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Browser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mavenovacha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mavenovacha.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Variables.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="223">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            <state relative-caret-position="36">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#254#255#0" expanded="true" />
@@ -88,39 +78,16 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="74" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="74" />
+            <state relative-caret-position="306">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Variables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#629#630#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -143,11 +110,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/logic/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Variables.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java" />
       </list>
     </option>
   </component>
@@ -166,6 +134,12 @@
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="975" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectId" id="1P3P4G1l69IOftiaCJuBkyQNP4c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -280,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyTextOnPage">
+  <component name="RunManager" selected="TestNG.AddRemoveElementsFunctionality">
     <configuration name="mavenovacha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mavenovacha" />
       <module name="mavenovacha" />
@@ -312,6 +286,23 @@
         </option>
       </MavenSettings>
       <method v="2" />
+    </configuration>
+    <configuration name="AddRemoveElementsFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenovacha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.AddRemoveElementsFunctionality" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mavenovacha" />
@@ -349,6 +340,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddRemoveElementsFunctionality" />
         <item itemvalue="TestNG.VerifyTextOnPage" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="Application.mavenovacha" />
@@ -369,22 +361,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest - 2019.08.08 at 18h 59m 40s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyTextOnPage - 2019.08.08 at 19h 57m 52s.xml">
+    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 27m 33s.xml">
       <configuration name="VerifyTextOnPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VerifyTextOnPage - 2019.08.08 at 20h 00m 44s.xml">
+    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 36m 29s.xml">
       <configuration name="VerifyTextOnPage" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="VerifyTextOnPage - 2019.08.08 at 20h 15m 15s.xml">
+    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 37m 40s.xml">
+      <configuration name="VerifyTextOnPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 38m 10s.xml">
+      <configuration name="VerifyTextOnPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 38m 33s.xml">
+      <configuration name="VerifyTextOnPage" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 39m 04s.xml">
+      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 39m 27s.xml">
+      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 39m 55s.xml">
+      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 40m 31s.xml">
+      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 42m 26s.xml">
       <configuration name="VerifyTextOnPage" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18785425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -485,46 +494,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="7" selection-start-line="20" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Variables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="70" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,10 +511,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="7" selection-start-line="20" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        <state relative-caret-position="36">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#254#255#0" expanded="true" />
@@ -550,16 +577,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="43" />
+        <state relative-caret-position="223">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
           </folding>
         </state>
       </provider>

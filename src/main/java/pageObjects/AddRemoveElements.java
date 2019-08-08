@@ -20,7 +20,17 @@ public class AddRemoveElements extends BasePage {
     public AddRemoveElements clickOnAddElementBtn(){
         if(waitForElement(btn_addElement).isDisplayed()){
             clickOnElement(btn_addElement);
+            System.out.println("test");
             return new AddRemoveElements(driver, wait);
+        }
+        Assert.fail("Nije nasao");
+        return new AddRemoveElements(driver, wait);
+    }
+
+    public AddRemoveElements clickOnAddRundomNumberOfElementsbtn(int numberofelements){
+        for(int i=0; i<numberofelements; i++){
+            clickOnElement(btn_addElement);
+            System.out.println("sdfadfafadsf");
         }
         Assert.fail("Nije nasao");
         return new AddRemoveElements(driver, wait);

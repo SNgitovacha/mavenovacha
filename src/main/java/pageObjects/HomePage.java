@@ -31,7 +31,12 @@ public class HomePage extends BasePage {
 
     public void clickOnLink(String href){
         for(WebElement w:allElements){
-            if(w.getAttribute("href").equals(href)){
+
+            String str = w.getAttribute("href");
+            str = str.substring(str.lastIndexOf("/"));
+
+            if(str.equals(href)){
+                System.out.println("sdffds");
                 clickOnElement(w);
                 return;
             }
