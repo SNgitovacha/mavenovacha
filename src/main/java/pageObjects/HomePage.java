@@ -1,22 +1,41 @@
 package pageObjects;
 
 import logic.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 
 public class HomePage extends BasePage {
 
-    @FindBy(xpath = "//a[contains(.,'LOGIN')]")
-    private WebElement btnLogin;
+    @FindBy(how = How.XPATH, using = "//a[@href='/abtest']")
+    private WebElement link_abtesting;
+    @FindBy(how = How.XPATH, using = "//a[@href='/add_remove_elements/']")
+    private WebElement link_addremoveelements;
+    @FindAll(@FindBy(how = How.XPATH, using = "//ul/li/a"))
+    private List<WebElement> allElements;
 
     public HomePage(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
     }
 
-    public LoginPage clickLogin(){
-        clickOnElement(btnLogin);
-        return new LoginPage(driver,wait);
+    public ABTesting clickOnAbtesting(){
+        clickOnElement(link_abtesting);
+        return new ABTesting(driver, wait);
     }
+
+    public void clickOnLink(String href){
+        for(WebElement w:allElements){
+            if(w.getAttribute("href").equals(href)){
+                clickOnElement(w);
+                return;
+            }
+        }
+    }
+
 }

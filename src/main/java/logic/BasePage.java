@@ -6,7 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class BasePage {
+public abstract class BasePage {
 
     protected WebDriver driver;
     protected WebDriverWait wait;
@@ -25,6 +25,20 @@ public class BasePage {
     protected  void enterText(WebElement element, String text){
         wait.until(ExpectedConditions.elementToBeClickable(element));
         element.sendKeys(text);
+    }
+
+    protected String getText(WebElement element){
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+        return element.getText();
+    }
+
+    protected WebElement waitForElement(WebElement element){
+        wait.until(
+                ExpectedConditions.and(ExpectedConditions.visibilityOf(element),
+                ExpectedConditions.elementToBeClickable(element))
+        );
+        return element;
+
     }
 
 }

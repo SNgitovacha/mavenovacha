@@ -4,26 +4,29 @@ import logic.Browser;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import pageObjects.ABTesting;
 import pageObjects.HomePage;
 
-public class LoginTest extends Browser {
+import static utils.Variables.*;
+
+public class VerifyTextOnPage {
 
     HomePage homePage;
 
-    @BeforeClass
-    public void beforeClass(){
+    @BeforeClass(alwaysRun = true)
+    public void setUp(){
         Browser.initializeDriver();
         Browser.openURL("http://the-internet.herokuapp.com/");
         homePage = new HomePage(Browser.driver, Browser.wait);
     }
 
     @Test
-//    public void test01(){
-//        homePage.clickLogin().enterEmail("test@mail.com").enterPassword("test").submitLogin();
-//    }
+    public void verifyTextOnPage(){
+        homePage.clickOnLink(ABTESTING_LINK);
+    }
 
-    @AfterClass
-    public void afterClass(){
+    @AfterClass(alwaysRun = true)
+    public void closeDriver(){
         Browser.closeBrowser();
     }
 }
