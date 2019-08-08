@@ -3,13 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Browser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logic/Browser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/logic/Environment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Utils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Driver$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Environment$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Environment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Utils.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -37,6 +51,10 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1P3P4G1l69IOftiaCJuBkyQNP4c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -66,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mavenovacha">
+  <component name="RunManager" selected="TestNG.LoginTest">
     <configuration name="mavenovacha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mavenovacha" />
       <module name="mavenovacha" />
@@ -99,8 +117,26 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenovacha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="Application.mavenovacha" />
       </list>
     </recent_temporary>
@@ -117,5 +153,18 @@
       <updated>1561711571542</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
