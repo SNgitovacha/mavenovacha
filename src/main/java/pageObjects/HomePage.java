@@ -17,6 +17,7 @@ public class HomePage extends BasePage {
     private WebElement link_abtesting;
     @FindBy(how = How.XPATH, using = "//a[@href='/add_remove_elements/']")
     private WebElement link_addremoveelements;
+
     @FindAll(@FindBy(how = How.XPATH, using = "//ul/li/a"))
     private List<WebElement> allElements;
 
@@ -31,7 +32,6 @@ public class HomePage extends BasePage {
 
     public void clickOnLink(String href){
         for(WebElement w:allElements){
-
             String str = w.getAttribute("href");
             str = str.substring(str.lastIndexOf("/"));
 
