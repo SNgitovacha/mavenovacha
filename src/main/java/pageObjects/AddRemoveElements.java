@@ -28,11 +28,13 @@ public class AddRemoveElements extends BasePage {
     }
 
     public AddRemoveElements clickOnAddRundomNumberOfElementsbtn(int numberofelements){
-        for(int i=0; i<numberofelements; i++){
+        boolean usao= false;
+        for(int i=1; i<=numberofelements; i++){
             clickOnElement(btn_addElement);
-            System.out.println("sdfadfafadsf");
+            System.out.println("kliknuo");
+            usao = true;
         }
-        Assert.fail("Nije nasao");
+        Assert.assertTrue(usao, "Nije usao");
         return new AddRemoveElements(driver, wait);
     }
 }

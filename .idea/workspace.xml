@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/mavenovacha.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/mavenovacha.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logic/Browser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/logic/Browser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mavenovacha.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mavenovacha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ABTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ABTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/AddRemoveElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/AddRemoveElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/AddRemoveElementsFunctionality.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/AddRemoveElementsFunctionality.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/VerifyTextOnPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/VerifyTextOnPage.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,117 +33,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/BasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/logic/Browser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="7" selection-start-line="20" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="74" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="74" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/Variables.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -139,20 +42,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/tests/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java" />
-        <option value="$PROJECT_DIR$/src/main/java/logic/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/Variables.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -170,104 +59,15 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="975" />
-    <option name="height" value="1059" />
-  </component>
   <component name="ProjectId" id="1P3P4G1l69IOftiaCJuBkyQNP4c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="logic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pageObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mavenovacha" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mavenovacha" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AutomationKurs_Decembar2018/Cas_4/AutomationKursProjekat" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -395,111 +195,12 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 39m 04s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 39m 27s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 39m 55s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 40m 31s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyTextOnPage - 2019.08.08 at 23h 42m 26s.xml">
-      <configuration name="VerifyTextOnPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.08 at 23h 42m 46s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyTextOnPage - 2019.08.09 at 09h 25m 08s.xml">
-      <configuration name="VerifyTextOnPage" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.09 at 09h 25m 52s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.09 at 09h 26m 48s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddRemoveElementsFunctionality - 2019.08.09 at 09h 31m 30s.xml">
-      <configuration name="AddRemoveElementsFunctionality" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19109312" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3197158" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18785425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -520,97 +221,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="7" selection-start-line="20" selection-start-column="3" selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/VerifyTextOnPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/logic/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/ABTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="74" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/Variables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="78" selection-start-line="5" selection-start-column="78" selection-end-line="5" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pageObjects/AddRemoveElements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddRemoveElementsFunctionality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

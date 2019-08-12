@@ -1,7 +1,6 @@
 package pageObjects;
 
 import logic.BasePage;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
@@ -36,7 +35,6 @@ public class HomePage extends BasePage {
             str = str.substring(str.lastIndexOf("/"));
 
             if(str.equals(href)){
-                System.out.println("sdffds");
                 clickOnElement(w);
                 return;
             }
