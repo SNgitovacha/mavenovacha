@@ -24,8 +24,9 @@ public class VerifyTextOnPage {
 
     @Test
     public void verifyTextOnPage(){
-        homePage.clickOnLink(ABTESTING_LINK);
-        abtesting.verifyTextOnPage();
+        System.out.println(LOVE);
+//        homePage.clickOnLink(ABTESTING_LINK);
+//        abtesting.verifyTextOnPage();
     }
 
     @AfterClass(alwaysRun = true)
