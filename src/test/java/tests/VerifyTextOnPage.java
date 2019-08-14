@@ -21,7 +21,7 @@ public class VerifyTextOnPage {
         homePage = new HomePage(Browser.driver, Browser.wait);
         abtesting = new ABTesting(Browser.driver, Browser.wait);
     }
-
+    /*testing creating new branch*/
     @Test
     public void verifyTextOnPage(){
         homePage.clickOnLink(ABTESTING_LINK);
