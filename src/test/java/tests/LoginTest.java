@@ -21,6 +21,7 @@ public class LoginTest extends Browser {
 //    public void test01(){
 //        homePage.clickLogin().enterEmail("test@mail.com").enterPassword("test").submitLogin();
 //    }
+// stisnuo si nema sta, ali mi se nesto cini da ces tek da stisnes :)
 
     @AfterClass
     public void afterClass(){
