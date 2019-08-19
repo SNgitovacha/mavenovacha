@@ -12,10 +12,10 @@ import java.util.List;
 
 public class HomePage extends BasePage {
 
-    @FindBy(how = How.XPATH, using = "//a[@href='/abtest']")
-    private WebElement link_abtesting;
-    @FindBy(how = How.XPATH, using = "//a[@href='/add_remove_elements/']")
-    private WebElement link_addremoveelements;
+//    @FindBy(how = How.XPATH, using = "//a[@href='/abtest']")
+//    private WebElement link_abtesting;
+//    @FindBy(how = How.XPATH, using = "//a[@href='/add_remove_elements/']")
+//    private WebElement link_addremoveelements;
 
     @FindAll(@FindBy(how = How.XPATH, using = "//ul/li/a"))
     private List<WebElement> allElements;
@@ -24,10 +24,10 @@ public class HomePage extends BasePage {
         super(driver, wait);
     }
 
-    public ABTesting clickOnAbtesting(){
-        clickOnElement(link_abtesting);
-        return new ABTesting(driver, wait);
-    }
+//    public ABTesting clickOnAbtesting(){
+//        clickOnElement(link_abtesting);
+//        return new ABTesting(driver, wait);
+//    }
 
     public void clickOnLink(String href){
         for(WebElement w:allElements){
@@ -40,5 +40,11 @@ public class HomePage extends BasePage {
             }
         }
     }
+
+    public BasicAuthPO enterText (String text){
+        enterText(text);
+        return new BasicAuthPO(driver, wait);
+    }
+
 
 }
