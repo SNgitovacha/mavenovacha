@@ -20,11 +20,11 @@ public class BasicAuth {
         basicAuth = new BasicAuthPO(Browser.driver, Browser.wait);
     }
     @Test
-    public void testBasicAuth(){
+    public void testBasicAuth() throws InterruptedException {
        homePage.clickOnLink(BASIC_AUTH);
-//       basicAuth.enterTextWithoutElement("tetetete");
+       basicAuth.enterTextWithoutElement();
     }
-    @AfterClass
+    @AfterClass (alwaysRun = true)
     public void closeDriver(){
         Browser.closeBrowser();
     }
