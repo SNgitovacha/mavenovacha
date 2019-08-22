@@ -6,4 +6,5 @@ public class Variables {
     public static final String ADDREMOVEELEMENTS_LINK = "/";
     public static final String BASIC_AUTH = "/basic_auth";
     public static final String CONTEXT_MENU = "/context_menu";
+    public static final String DROPDOWN_LINK = "/dropdown";
 }
