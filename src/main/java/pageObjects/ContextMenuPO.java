@@ -2,6 +2,7 @@ package pageObjects;
 
 import logic.BasePage;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -25,6 +26,11 @@ public class ContextMenuPO extends BasePage {
         Thread.sleep(1000);
         Alert alert = driver.switchTo().alert();
         alert.accept();
+    }
+    public void leftClick(){
+        System.out.println(element.getLocation());
+        //actions.doubleClick(element).perform();
+//        actions.moveToElement(element, 50, 125).click().perform();
     }
 
 }

@@ -1,6 +1,7 @@
 package tests;
 
 import logic.Browser;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import pageObjects.ContextMenuPO;
@@ -25,11 +26,12 @@ public class ContextMenu {
     public void testContextMenu() throws InterruptedException {
         homePage.clickOnLink(CONTEXT_MENU);
         contextMenuPO.rightClick();
+        contextMenuPO.leftClick();
     }
 
-//    @AfterClass (alwaysRun = true)
-//    public void closeDriver(){
-//        Browser.closeBrowser();
-//    }
+    @AfterClass(alwaysRun = true)
+    public void closeDriver(){
+        Browser.closeBrowser();
+    }
 
 }

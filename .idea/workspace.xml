@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/BasicAuthPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BasicAuthPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BasicAuth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BasicAuth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/BasicAuthPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/BasicAuthPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Variables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/BasicAuth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/BasicAuth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/ContextMenuPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ContextMenuPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/ContextMenuPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/ContextMenuPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ContextMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ContextMenu.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +51,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../AutomationKurs_Decembar2018/Cas_4/AutomationKursProjekat" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AutomationKurs_Decembar2018/Cas_4/AutomationKursProjekat" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
