@@ -4,30 +4,29 @@ import logic.Browser;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pageObjects.DropdownPO;
 import pageObjects.HomePage;
+import pageObjects.MultipleWindowsPO;
 
 import static utils.Variables.*;
 
-public class Dropdown {
+public class MultipleWindows {
 
-    //page object
     HomePage homePage;
-    DropdownPO dropdownPage;
+    MultipleWindowsPO multipleWindows;
 
     @BeforeClass(alwaysRun = true)
     public void SetUp(){
         Browser.initializeDriver();
         Browser.openURL("http://the-internet.herokuapp.com/");
         homePage = new HomePage(Browser.driver, Browser.wait);
-        dropdownPage = new DropdownPO(Browser.driver, Browser.wait);
+        multipleWindows = new MultipleWindowsPO(Browser.driver, Browser.wait);
     }
     @Test
-    public void testDropdown(){
-        homePage.clickOnLink(DROPDOWN_LINK);
-        dropdownPage.selectDropdownOption("dropdown", 2);
+    public void testMultipleWindows(){
+        homePage.clickOnLink(MULTIPLEWINDOWS_LINK);
+        multipleWindows.clickToOpenNewWindow();
     }
-//
+
 //    @AfterClass(alwaysRun = true)
 //    public void closeDriver(){
 //        Browser.closeBrowser();

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Dropdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Dropdown.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Dropdown">
+  <component name="RunManager" selected="TestNG.MultipleWindows.testMultipleWindows">
     <configuration name="mavenovacha [package]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -97,23 +101,6 @@
         </option>
       </MavenSettings>
       <method v="2" />
-    </configuration>
-    <configuration name="AddRemoveElementsFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mavenovacha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddRemoveElementsFunctionality" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="BasicAuth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mavenovacha" />
@@ -166,6 +153,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultipleWindows.testMultipleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenovacha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.MultipleWindows" />
+      <option name="METHOD_NAME" value="testMultipleWindows" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VerifyTextOnPage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mavenovacha" />
       <extension name="coverage">
@@ -185,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MultipleWindows.testMultipleWindows" />
         <item itemvalue="TestNG.Dropdown" />
         <item itemvalue="TestNG.ContextMenu" />
         <item itemvalue="TestNG.BasicAuth" />
         <item itemvalue="TestNG.VerifyTextOnPage" />
-        <item itemvalue="TestNG.AddRemoveElementsFunctionality" />
       </list>
     </recent_temporary>
   </component>
