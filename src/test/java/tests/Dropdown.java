@@ -23,9 +23,9 @@ public class Dropdown {
         homePage.clickOnLink(DROPDOWN_LINK);
     }
 
-//    @AfterClass(alwaysRun = true)
-//    public void closeDriver(){
-//        Browser.closeBrowser();
-//    }
+    @AfterClass(alwaysRun = true)
+    public void closeDriver(){
+        Browser.closeBrowser();
+    }
 
 }
