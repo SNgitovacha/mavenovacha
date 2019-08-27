@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import java.util.Set;
 
 public class MultipleWindowsPO extends BasePage {
 
@@ -16,11 +19,16 @@ public class MultipleWindowsPO extends BasePage {
         super(driver, wait);
     }
 
-    public void clickToOpenNewWindow(){
+    public MultipleWindowsPO clickToOpenNewWindow(){
         clickOnElement(link_clickHere);
+        return new MultipleWindowsPO(driver,wait);
     }
 
-    public void verifyThatNewWindowIsOpened(){
-
+    public void verifyThatNewWindowIsOpened(String expectedTitle){
+        for(String curWindow : driver.getWindowHandles()){
+            driver.switchTo().window(curWindow);
+        }
+        String currentTitle = driver.getTitle();
+        Assert.assertEquals(currentTitle, expectedTitle, "result");
     }
 }

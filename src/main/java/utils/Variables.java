@@ -8,4 +8,6 @@ public class Variables {
     public static final String CONTEXT_MENU = "/context_menu";
     public static final String DROPDOWN_LINK = "/dropdown";
     public static final String MULTIPLEWINDOWS_LINK = "/windows";
+    public static final String NEW_WINDOW = "New Window";
+    public static final String ONLOADERROR_LINK = "/javascript_error";
 }
