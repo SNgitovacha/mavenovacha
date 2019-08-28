@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/MultipleWindowsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/MultipleWindowsPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MultipleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MultipleWindows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/MultipleWindowsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/MultipleWindowsPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Variables.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MultipleWindows.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MultipleWindows.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/OnLoadErrorPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/OnLoadErrorPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OnloadError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/OnloadError.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/OnloadError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/OnloadError.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,23 +102,6 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="ContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mavenovacha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ContextMenu" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Dropdown" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mavenovacha" />
       <extension name="coverage">
@@ -190,13 +171,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OnloadError.testOnloadError" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenovacha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.OnloadError" />
+      <option name="METHOD_NAME" value="testOnloadError" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.OnloadError" />
+        <item itemvalue="TestNG.OnloadError.testOnloadError" />
         <item itemvalue="TestNG.MultipleWindows" />
         <item itemvalue="TestNG.MultipleWindows.testMultipleWindows" />
         <item itemvalue="TestNG.Dropdown" />
-        <item itemvalue="TestNG.ContextMenu" />
       </list>
     </recent_temporary>
   </component>
