@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fb192e-2c29-46cd-82c3-e3e77b0e4677" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      Updated upstream
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/OnLoadErrorPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/OnLoadErrorPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/OnloadError.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/OnloadError.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/OnloadError.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/OnloadError.class" afterDir="false" />
-      =======
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/JavaScriptAlertsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/JavaScriptAlertsPO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Variables.java" afterDir="false" />
-      &gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ContextMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ContextMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JavaScriptAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JavaScriptAlerts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/JavaScriptAlertsPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/JavaScriptAlertsPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Variables.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Variables.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ContextMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/ContextMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/JavaScriptAlerts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/JavaScriptAlerts.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +106,23 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="ContextMenu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mavenovacha" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.ContextMenu" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaScriptAlerts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mavenovacha" />
       <extension name="coverage">
@@ -134,24 +151,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.MultipleWindows" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultipleWindows.testMultipleWindows" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mavenovacha" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.MultipleWindows" />
-      <option name="METHOD_NAME" value="testMultipleWindows" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -196,10 +195,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.JavaScriptAlerts" />
+        <item itemvalue="TestNG.ContextMenu" />
         <item itemvalue="TestNG.OnloadError" />
         <item itemvalue="TestNG.OnloadError.testOnloadError" />
         <item itemvalue="TestNG.MultipleWindows" />
-        <item itemvalue="TestNG.MultipleWindows.testMultipleWindows" />
       </list>
     </recent_temporary>
   </component>

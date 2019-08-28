@@ -11,4 +11,9 @@ public class Variables {
     public static final String NEW_WINDOW = "New Window";
     public static final String ONLOADERROR_LINK = "/javascript_error";
     public static final String JAVASCRIPTALERT_LINK = "/javascript_alerts";
+    public static final String JSALERT_TEXT = "You successfuly clicked an alert";
+    public static final String JSCONFIRMACCEPT_TEXT = "You clicked: Ok";
+    public static final String JSCONFIRMCANCEL_TEXT = "You clicked: Cancel";
+    public static final String JSPROMPTEMPTY_TEXT = "You entered: ";
+    public static final String JSPROMPTDISMISS_TEXT = "You entered: null";
 }

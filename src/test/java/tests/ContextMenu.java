@@ -29,9 +29,9 @@ public class ContextMenu {
         contextMenuPO.leftClick();
     }
 
-    @AfterClass(alwaysRun = true)
-    public void closeDriver(){
-        Browser.closeBrowser();
-    }
+//    @AfterClass(alwaysRun = true)
+//    public void closeDriver(){
+//        Browser.closeBrowser();
+//    }
 
 }

@@ -26,6 +26,8 @@ public class JavaScriptAlerts {
     public void testJavascriptAlert(){
         homePage.clickOnLink(JAVASCRIPTALERT_LINK);
         javaScriptAlertsPO.verifyJSAlert();
+        javaScriptAlertsPO.verifyJSConfirm();
+        javaScriptAlertsPO.verifyJSPrompt("uyuyuyuyuyuyuy");
     }
 
 //    @AfterClass(alwaysRun = true)
