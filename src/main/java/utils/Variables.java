@@ -10,4 +10,5 @@ public class Variables {
     public static final String MULTIPLEWINDOWS_LINK = "/windows";
     public static final String NEW_WINDOW = "New Window";
     public static final String ONLOADERROR_LINK = "/javascript_error";
+    public static final String JAVASCRIPTALERT_LINK = "/javascript_alerts";
 }
